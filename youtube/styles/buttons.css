@@ -1,0 +1,67 @@
+.button-ytsub {
+  background-color: rgb(200, 0, 0);
+  color:white;
+  border:none;
+  text-align: center;
+  padding-block: 10px;
+  padding-inline: 16px;
+  border-radius: 3px;
+  margin-right: 8px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: opacity 0.25s;
+}
+.button-ytsub:hover {
+  opacity: 0.8;
+}
+.button-ytsub:active {
+  opacity: 0.5;
+}
+
+.button-join {
+  background-color: white;
+  color: rgb(41, 118, 211);
+  text-align: center;
+  padding-block: 9px;
+  padding-inline: 15px;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  margin-right: 8px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: background-color 0.25s,
+    color 0.25s,
+    opacity 0.25s;
+}
+.button-join:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.button-join:active {
+  opacity: 0.7;
+}
+
+.button-tweet {
+  background-color: #1DA1F2;
+  color: #F5F8FA;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  padding-block: 10px;
+  padding-inline: 16px;
+  border: none;
+  border-radius: 18px;
+  margin-right: 8px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: box-shadow 0.0875s,
+    opacity 0.25s;
+}
+.button-tweet:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.55);
+}
+.button-tweet:active {
+  opacity: 0.75;
+}
